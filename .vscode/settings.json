@@ -1,0 +1,10 @@
+{
+    "karmaTestExplorer.karmaConfFilePath": "karma.conf.js",
+    "karmaTestExplorer.karmaReporterLogLevel": "info",
+    "test-runner-reloaded.additionalArgs": "--no-watch --code-coverage",
+    "markiscodecoverage.searchCriteria": "coverage/elTiempo/lcov*.info",
+    "coverage-gutters.coverageBaseDir": "coverage/elTiempo/",
+    "coverage-gutters.coverageReportFileName": "coverage/elTiempo/index.html",
+    "coverage-gutters.showLineCoverage": true,
+    "coverage-gutters.showRulerCoverage": true
+}
