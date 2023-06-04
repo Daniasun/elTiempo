@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1685912349396,
-  "index": "/EltiempoAPP/index.html",
+  "timestamp": 1685912691986,
+  "index": "/dist/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/EltiempoAPP/favicon.ico",
-        "/EltiempoAPP/index.html",
-        "/EltiempoAPP/main.c0c5195cb514be3a.js",
-        "/EltiempoAPP/polyfills.b2cec638d9423c81.js",
-        "/EltiempoAPP/runtime.71e01403a0c88b6e.js",
-        "/EltiempoAPP/scripts.861ee729083225fc.js",
-        "/EltiempoAPP/styles.464918d178e6d4d7.css"
+        "/dist/favicon.ico",
+        "/dist/index.html",
+        "/dist/main.c0c5195cb514be3a.js",
+        "/dist/polyfills.b2cec638d9423c81.js",
+        "/dist/runtime.71e01403a0c88b6e.js",
+        "/dist/scripts.861ee729083225fc.js",
+        "/dist/styles.464918d178e6d4d7.css"
       ],
       "patterns": [
         "http:\\/\\/api\\.weatherapi\\.com\\/.*"
@@ -31,15 +31,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/EltiempoAPP/assets/images/icons/icon-128x128.png",
-        "/EltiempoAPP/assets/images/icons/icon-144x144.png",
-        "/EltiempoAPP/assets/images/icons/icon-152x152.png",
-        "/EltiempoAPP/assets/images/icons/icon-192x192.png",
-        "/EltiempoAPP/assets/images/icons/icon-384x384.png",
-        "/EltiempoAPP/assets/images/icons/icon-512x512.png",
-        "/EltiempoAPP/assets/images/icons/icon-72x72.png",
-        "/EltiempoAPP/assets/images/icons/icon-96x96.png",
-        "/EltiempoAPP/assets/images/icons/maskable_icon.png"
+        "/dist/assets/images/icons/icon-128x128.png",
+        "/dist/assets/images/icons/icon-144x144.png",
+        "/dist/assets/images/icons/icon-152x152.png",
+        "/dist/assets/images/icons/icon-192x192.png",
+        "/dist/assets/images/icons/icon-384x384.png",
+        "/dist/assets/images/icons/icon-512x512.png",
+        "/dist/assets/images/icons/icon-72x72.png",
+        "/dist/assets/images/icons/icon-96x96.png",
+        "/dist/assets/images/icons/maskable_icon.png"
       ],
       "patterns": []
     }
@@ -61,22 +61,22 @@
     }
   ],
   "hashTable": {
-    "/EltiempoAPP/assets/images/icons/icon-128x128.png": "d657e683e21b437775661f71fe02c684564c84fc",
-    "/EltiempoAPP/assets/images/icons/icon-144x144.png": "c67704b91419c5adc6a9b838d5b52d8b02c27813",
-    "/EltiempoAPP/assets/images/icons/icon-152x152.png": "c257a0dfaf1929132499c8fa85eb5150449b9402",
-    "/EltiempoAPP/assets/images/icons/icon-192x192.png": "51535e980b428fe2d97a881dacc94812c9f57e4e",
-    "/EltiempoAPP/assets/images/icons/icon-384x384.png": "ddbd379513a3eed830212d91b7bd1a60969c08c7",
-    "/EltiempoAPP/assets/images/icons/icon-512x512.png": "13285393b8fce4a2f9755b26227b198c6e7a1d46",
-    "/EltiempoAPP/assets/images/icons/icon-72x72.png": "561fef4a1f62925f048d45badcc9605d6c18267c",
-    "/EltiempoAPP/assets/images/icons/icon-96x96.png": "ad32155d4ee3ec67af570f23de4dbe4ad8c0775f",
-    "/EltiempoAPP/assets/images/icons/maskable_icon.png": "34dedc2594f3e355718429692ffe0c0f656d681e",
-    "/EltiempoAPP/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/EltiempoAPP/index.html": "b1c13a8bfacbb973ec9cd755089053aaba73e368",
-    "/EltiempoAPP/main.c0c5195cb514be3a.js": "38f98fff025fe3fd3fdbaca943bf163783d76832",
-    "/EltiempoAPP/polyfills.b2cec638d9423c81.js": "2cb1a780ced5639ab55e12532636c2e627bcaf58",
-    "/EltiempoAPP/runtime.71e01403a0c88b6e.js": "b0303f4fbbda2e684cef53e072230d1fe6648a9d",
-    "/EltiempoAPP/scripts.861ee729083225fc.js": "2cd2fd8d337ed014ae4fddc77aa8590c6ddad14d",
-    "/EltiempoAPP/styles.464918d178e6d4d7.css": "4c0638202a0460244d538b8dc1aae8f999fa9c83"
+    "/dist/assets/images/icons/icon-128x128.png": "d657e683e21b437775661f71fe02c684564c84fc",
+    "/dist/assets/images/icons/icon-144x144.png": "c67704b91419c5adc6a9b838d5b52d8b02c27813",
+    "/dist/assets/images/icons/icon-152x152.png": "c257a0dfaf1929132499c8fa85eb5150449b9402",
+    "/dist/assets/images/icons/icon-192x192.png": "51535e980b428fe2d97a881dacc94812c9f57e4e",
+    "/dist/assets/images/icons/icon-384x384.png": "ddbd379513a3eed830212d91b7bd1a60969c08c7",
+    "/dist/assets/images/icons/icon-512x512.png": "13285393b8fce4a2f9755b26227b198c6e7a1d46",
+    "/dist/assets/images/icons/icon-72x72.png": "561fef4a1f62925f048d45badcc9605d6c18267c",
+    "/dist/assets/images/icons/icon-96x96.png": "ad32155d4ee3ec67af570f23de4dbe4ad8c0775f",
+    "/dist/assets/images/icons/maskable_icon.png": "34dedc2594f3e355718429692ffe0c0f656d681e",
+    "/dist/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/dist/index.html": "7f1891659038c7106c943541946738e744ab7e74",
+    "/dist/main.c0c5195cb514be3a.js": "38f98fff025fe3fd3fdbaca943bf163783d76832",
+    "/dist/polyfills.b2cec638d9423c81.js": "2cb1a780ced5639ab55e12532636c2e627bcaf58",
+    "/dist/runtime.71e01403a0c88b6e.js": "b0303f4fbbda2e684cef53e072230d1fe6648a9d",
+    "/dist/scripts.861ee729083225fc.js": "2cd2fd8d337ed014ae4fddc77aa8590c6ddad14d",
+    "/dist/styles.464918d178e6d4d7.css": "4c0638202a0460244d538b8dc1aae8f999fa9c83"
   },
   "navigationUrls": [
     {
