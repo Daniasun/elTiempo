@@ -29,7 +29,8 @@
             "assets": [
               "src/manifest.json",
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/ngsw-config.json"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -44,7 +45,7 @@
               ]
             },
             "serviceWorker": true,
-            "ngswConfigPath": "ngsw-config.json"
+            "ngswConfigPath": "src/ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -123,6 +124,9 @@
               "src/**/*.html"
             ]
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
