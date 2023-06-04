@@ -1,0 +1,118 @@
+@import "../../../sass/variables";
+.card {
+  background-color: $primario;
+  margin-top: 2rem;
+  border-radius: $border-radius-size;
+  box-shadow: -0.063rem 1rem 1.875rem -1rem $black;
+
+  .card__main {
+    padding: 0 1rem;
+    img {
+      position: absolute;
+      top: 1.75rem;
+      right: 4rem;
+    }
+  }
+  .card__temp {
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+    font-size: 3rem;
+    color: $white;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .card__city {
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1rem;
+    color: $white;
+    span {
+      font-size: 1.5rem;
+      color: $secundario;
+      i-bs{
+        cursor: pointer;
+        position: relative;
+        top: -5px;
+      }
+    }
+    button {
+      font-weight: 600;
+      border: none;
+      background-color: transparent;
+      color: $grey;
+    }
+    .max{
+      color: $white;
+    }
+    .min{
+      color: $grey;
+    }
+    .hum{
+      color: $blue;
+    }
+    .favorited {
+      color: $favorite;
+    }
+  }
+  .card__stats {
+    background-color: $primario;
+    color: $white;
+    font-weight: 400;
+    border-bottom-left-radius: $border-radius-size;
+    border-bottom-right-radius: $border-radius-size;
+    display: flex;
+    justify-content: space-evenly;
+
+    .card__stat {
+      padding: 1.25rem 1rem;
+      text-align: center;
+
+      &--stat {
+        position: relative;
+        font-size: 1.5rem;
+        margin-bottom: 0.625rem;
+        color: $secundario;
+      }
+
+      &--temp {
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 1.5rem;
+        .max{
+          color: $white;
+        }
+        .min{
+          color: $grey;
+        }
+      }
+    }
+  }
+  .card__favs {
+    background-color: $primario;
+    color: $white;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom-left-radius: $border-radius-size;
+    border-bottom-right-radius: $border-radius-size;
+    ul {
+      padding-right: 2rem;
+      li{
+        color: $primario;
+        background-color: $favorite;
+        border-radius: $border-radius-size;
+        cursor: pointer;
+        font-weight: bold;
+      }
+    }
+
+  }
+  hr {
+    border: 1px solid $white;
+    opacity: 1;
+  }
+  .white{
+    color: $white;
+  }
+}

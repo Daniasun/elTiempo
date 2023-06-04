@@ -1,0 +1,7 @@
+<nav class="nav d-flex justify-content-center">
+  <a class="brand" [routerLink]="['/']">El Tiempo</a>
+</nav>
+<div class="container mx-auto py-3">
+  <app-search (submitted)="onSearch($event)"></app-search>
+  <app-weather (cambio)="onSearch($event)" *ngIf="weather$ | async as weather" [weather]="weather" [city]="city"></app-weather>
+</div>

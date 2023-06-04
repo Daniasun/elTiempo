@@ -1,0 +1,43 @@
+<div class="card">
+  <div class="card__main">
+    <img src="{{weather.current.condition.icon}}" width="96" height="96" [alt]="weather.current.condition.text">
+  </div>
+  <div class="card__temp col-9"> {{weather.current.temp_c | number:'1.0-0'}}&#8451;</div>
+  <div class="card__city mx-4">
+    <span class="px-2">
+      {{weather.location.name}}
+      <i-bs name="star" (click)="onFavorite(weather.location.name)" *ngIf="!favFound" width="2rem" height="2rem"></i-bs>
+      <i-bs name="star-fill" (click)="onFavorite(weather.location.name)" *ngIf="favFound" width="2rem" height="2rem" class="favorited"></i-bs>
+    </span> |
+    <span>
+      <button id="otra" (click)="onClick()">{{city.value}} </button>
+    </span>
+  <span class="row mx-2 mb-0 pt-2 max">Hoy</span>
+    <div class="d-flex flex-row">
+      <span class="max px-2 white">{{weather.forecast.forecastday[0].day.maxtemp_c | number:'1.0-0'}}&#8451;</span>
+      <span class="min px-2">{{weather.forecast.forecastday[0].day.mintemp_c | number:'1.0-0'}}&#8451;</span>
+      <span class="hum px-2">Humedad: {{weather.current.humidity}}%</span>
+    </div>
+  </div>
+  <hr class="mx-2">
+  <div class="card__stats">
+    <div *ngFor="let dato of weather.forecast.forecastday.slice(1)" class="card__stat width-33" >
+      <img src="{{dato.day.condition.icon}}" [alt]="dato.day.condition.text" width="96" height="96">
+      <div class="card__stat--stat">{{dato.date | date : 'EEEE' | titlecase }}</div>
+      <div class="card__stat--temp">
+        <span class="max px-2">{{dato.day.maxtemp_c | number:'1.0-0'}}&#8451;</span>
+        <span class="min px-2">{{dato.day.mintemp_c | number:'1.0-0'}}&#8451;</span>
+      </div>
+    </div>
+  </div>
+  <hr *ngIf="favoritos.length" class="mx-2">
+  <div *ngIf="favoritos.length" class="card__favs flex-column pt-3">
+    <h5 class="card-title text-center">Favoritos</h5>
+    <ul class="d-flex align-content-start flex-wrap">
+      <li class="px-3 m-3 d-flex align-items-center justify-content-around" *ngFor="let favorito of favoritos">
+        <span (click)="selFavorito(favorito)" class="m-3 ">{{ favorito }}</span>
+        <button type="button" aria-label="eliminar favorito" class="btn-close" (click)="onFavorite(favorito)"></button>
+      </li>
+    </ul>
+  </div>
+</div>
