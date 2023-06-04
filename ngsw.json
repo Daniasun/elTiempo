@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1685914020091,
-  "index": "/Eltiempo/index.html",
+  "timestamp": 1685915989629,
+  "index": "/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Eltiempo/favicon.ico",
-        "/Eltiempo/index.html",
-        "/Eltiempo/main.c0c5195cb514be3a.js",
-        "/Eltiempo/polyfills.b2cec638d9423c81.js",
-        "/Eltiempo/runtime.71e01403a0c88b6e.js",
-        "/Eltiempo/scripts.861ee729083225fc.js",
-        "/Eltiempo/styles.464918d178e6d4d7.css"
+        "/favicon.ico",
+        "/index.html",
+        "/main.c0c5195cb514be3a.js",
+        "/polyfills.b2cec638d9423c81.js",
+        "/runtime.71e01403a0c88b6e.js",
+        "/scripts.861ee729083225fc.js",
+        "/styles.464918d178e6d4d7.css"
       ],
       "patterns": [
         "http:\\/\\/api\\.weatherapi\\.com\\/.*"
@@ -31,15 +31,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "/Eltiempo/assets/images/icons/icon-128x128.png",
-        "/Eltiempo/assets/images/icons/icon-144x144.png",
-        "/Eltiempo/assets/images/icons/icon-152x152.png",
-        "/Eltiempo/assets/images/icons/icon-192x192.png",
-        "/Eltiempo/assets/images/icons/icon-384x384.png",
-        "/Eltiempo/assets/images/icons/icon-512x512.png",
-        "/Eltiempo/assets/images/icons/icon-72x72.png",
-        "/Eltiempo/assets/images/icons/icon-96x96.png",
-        "/Eltiempo/assets/images/icons/maskable_icon.png"
+        "/assets/images/icons/icon-128x128.png",
+        "/assets/images/icons/icon-144x144.png",
+        "/assets/images/icons/icon-152x152.png",
+        "/assets/images/icons/icon-192x192.png",
+        "/assets/images/icons/icon-384x384.png",
+        "/assets/images/icons/icon-512x512.png",
+        "/assets/images/icons/icon-72x72.png",
+        "/assets/images/icons/icon-96x96.png",
+        "/assets/images/icons/maskable_icon.png"
       ],
       "patterns": []
     }
@@ -61,22 +61,22 @@
     }
   ],
   "hashTable": {
-    "/Eltiempo/assets/images/icons/icon-128x128.png": "d657e683e21b437775661f71fe02c684564c84fc",
-    "/Eltiempo/assets/images/icons/icon-144x144.png": "c67704b91419c5adc6a9b838d5b52d8b02c27813",
-    "/Eltiempo/assets/images/icons/icon-152x152.png": "c257a0dfaf1929132499c8fa85eb5150449b9402",
-    "/Eltiempo/assets/images/icons/icon-192x192.png": "51535e980b428fe2d97a881dacc94812c9f57e4e",
-    "/Eltiempo/assets/images/icons/icon-384x384.png": "ddbd379513a3eed830212d91b7bd1a60969c08c7",
-    "/Eltiempo/assets/images/icons/icon-512x512.png": "13285393b8fce4a2f9755b26227b198c6e7a1d46",
-    "/Eltiempo/assets/images/icons/icon-72x72.png": "561fef4a1f62925f048d45badcc9605d6c18267c",
-    "/Eltiempo/assets/images/icons/icon-96x96.png": "ad32155d4ee3ec67af570f23de4dbe4ad8c0775f",
-    "/Eltiempo/assets/images/icons/maskable_icon.png": "34dedc2594f3e355718429692ffe0c0f656d681e",
-    "/Eltiempo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/Eltiempo/index.html": "aadecf52761ca30cf5e1c5171cd515edbe6e0d97",
-    "/Eltiempo/main.c0c5195cb514be3a.js": "38f98fff025fe3fd3fdbaca943bf163783d76832",
-    "/Eltiempo/polyfills.b2cec638d9423c81.js": "2cb1a780ced5639ab55e12532636c2e627bcaf58",
-    "/Eltiempo/runtime.71e01403a0c88b6e.js": "b0303f4fbbda2e684cef53e072230d1fe6648a9d",
-    "/Eltiempo/scripts.861ee729083225fc.js": "2cd2fd8d337ed014ae4fddc77aa8590c6ddad14d",
-    "/Eltiempo/styles.464918d178e6d4d7.css": "4c0638202a0460244d538b8dc1aae8f999fa9c83"
+    "/assets/images/icons/icon-128x128.png": "d657e683e21b437775661f71fe02c684564c84fc",
+    "/assets/images/icons/icon-144x144.png": "c67704b91419c5adc6a9b838d5b52d8b02c27813",
+    "/assets/images/icons/icon-152x152.png": "c257a0dfaf1929132499c8fa85eb5150449b9402",
+    "/assets/images/icons/icon-192x192.png": "51535e980b428fe2d97a881dacc94812c9f57e4e",
+    "/assets/images/icons/icon-384x384.png": "ddbd379513a3eed830212d91b7bd1a60969c08c7",
+    "/assets/images/icons/icon-512x512.png": "13285393b8fce4a2f9755b26227b198c6e7a1d46",
+    "/assets/images/icons/icon-72x72.png": "561fef4a1f62925f048d45badcc9605d6c18267c",
+    "/assets/images/icons/icon-96x96.png": "ad32155d4ee3ec67af570f23de4dbe4ad8c0775f",
+    "/assets/images/icons/maskable_icon.png": "34dedc2594f3e355718429692ffe0c0f656d681e",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "a528494b9786bf43e6b5599b07fec00cb28e6a0a",
+    "/main.c0c5195cb514be3a.js": "38f98fff025fe3fd3fdbaca943bf163783d76832",
+    "/polyfills.b2cec638d9423c81.js": "2cb1a780ced5639ab55e12532636c2e627bcaf58",
+    "/runtime.71e01403a0c88b6e.js": "b0303f4fbbda2e684cef53e072230d1fe6648a9d",
+    "/scripts.861ee729083225fc.js": "2cd2fd8d337ed014ae4fddc77aa8590c6ddad14d",
+    "/styles.464918d178e6d4d7.css": "4c0638202a0460244d538b8dc1aae8f999fa9c83"
   },
   "navigationUrls": [
     {
