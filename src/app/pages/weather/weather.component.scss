@@ -63,7 +63,12 @@
     border-bottom-right-radius: $border-radius-size;
     display: flex;
     justify-content: space-evenly;
-
+    span{
+      font-size: 1.2rem;
+      a{
+        color: $secundario;
+      }
+    }
     .card__stat {
       padding: 1.25rem 1rem;
       text-align: center;

@@ -13,15 +13,15 @@
       <button id="otra" (click)="onClick()">{{city.value}} </button>
     </span>
   <span class="row mx-2 mb-0 pt-2 max">Hoy</span>
-    <div class="d-flex flex-row">
+    <div class="d-flex flex-wrap">
       <span class="max px-2 white">{{weather.forecast.forecastday[0].day.maxtemp_c | number:'1.0-0'}}&#8451;</span>
       <span class="min px-2">{{weather.forecast.forecastday[0].day.mintemp_c | number:'1.0-0'}}&#8451;</span>
       <span class="hum px-2">Humedad: {{weather.current.humidity}}%</span>
     </div>
   </div>
   <hr class="mx-2">
-  <div class="card__stats">
-    <div *ngFor="let dato of weather.forecast.forecastday.slice(1)" class="card__stat width-33" >
+  <div class="card__stats d-flex flex-wrap">
+    <div *ngFor="let dato of weather.forecast.forecastday.slice(1)" class="card__stat col-12 col-lg-4" >
       <img src="{{dato.day.condition.icon}}" [alt]="dato.day.condition.text" width="96" height="96">
       <div class="card__stat--stat">{{dato.date | date : 'EEEE' | titlecase }}</div>
       <div class="card__stat--temp">
@@ -29,6 +29,7 @@
         <span class="min px-2">{{dato.day.mintemp_c | number:'1.0-0'}}&#8451;</span>
       </div>
     </div>
+    <span class="p-2">Datos extraídos de <a href="https://openweathermap.org/" target="_blank">OpenWeather</a></span>
   </div>
   <hr *ngIf="favoritos.length" class="mx-2">
   <div *ngIf="favoritos.length" class="card__favs flex-column pt-3">
