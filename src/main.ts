@@ -7,7 +7,7 @@ import { environment } from './environments/environment';
 if (environment.production) {
   enableProdMode();
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/ngsw-worker.js');
+    navigator.serviceWorker.register('/elTiempo/ngsw-worker.js');
   }
 }
 
