@@ -40,8 +40,7 @@
           "strategy": "freshness",
           "maxSize": 100,
           "maxAge": "3d",
-          "timeout": "10s",
-          "ttl": "604800"
+          "timeout": "10s"
       }
     }
   ]
