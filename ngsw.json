@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686055247274,
+  "timestamp": 1686055813217,
   "index": "/elTiempo/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/elTiempo/favicon.ico",
         "/elTiempo/index.html",
-        "/elTiempo/main.b7ffa3574611998c.js",
+        "/elTiempo/main.2c96514a00ee4c3b.js",
         "/elTiempo/polyfills.b2cec638d9423c81.js",
         "/elTiempo/runtime.71e01403a0c88b6e.js",
         "/elTiempo/scripts.861ee729083225fc.js",
@@ -71,8 +71,8 @@
     "/elTiempo/assets/images/icons/icon-96x96.png": "ad32155d4ee3ec67af570f23de4dbe4ad8c0775f",
     "/elTiempo/assets/images/icons/maskable_icon.png": "34dedc2594f3e355718429692ffe0c0f656d681e",
     "/elTiempo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/elTiempo/index.html": "e132dcdc28abdb850d6fb620edab007267b5298a",
-    "/elTiempo/main.b7ffa3574611998c.js": "6687062258169dc920f4d270da51d760fbb51f41",
+    "/elTiempo/index.html": "e8bb1e233853ea474d6e73bb76e70d2411488167",
+    "/elTiempo/main.2c96514a00ee4c3b.js": "a90b0760af7eebec4eb7135bf2cf49c20230cbbd",
     "/elTiempo/polyfills.b2cec638d9423c81.js": "2cb1a780ced5639ab55e12532636c2e627bcaf58",
     "/elTiempo/runtime.71e01403a0c88b6e.js": "b0303f4fbbda2e684cef53e072230d1fe6648a9d",
     "/elTiempo/scripts.861ee729083225fc.js": "2cd2fd8d337ed014ae4fddc77aa8590c6ddad14d",
