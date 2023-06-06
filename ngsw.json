@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686057112290,
+  "timestamp": 1686057502407,
   "index": "/elTiempo/index.html",
   "assetGroups": [
     {
@@ -20,7 +20,8 @@
         "/elTiempo/styles.464918d178e6d4d7.css"
       ],
       "patterns": [
-        "https:\\/\\/api\\.weatherapi\\.com\\/.*"
+        "https:\\/\\/api\\.weatherapi\\.com\\/.*",
+        "https:\\/\\/cdn\\.weatherapi\\.com\\/.*"
       ]
     },
     {
@@ -48,7 +49,8 @@
     {
       "name": "api",
       "patterns": [
-        "https:\\/\\/api\\.weatherapi\\.com\\/.*"
+        "https:\\/\\/api\\.weatherapi\\.com\\/.*",
+        "https:\\/\\/cdn\\.weatherapi\\.com\\/.*"
       ],
       "strategy": "freshness",
       "maxSize": 100,
