@@ -6,7 +6,7 @@
   "background_color": "#5cbbc1",
   "display": "fullscreen",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/elTiempo/",
   "start_url": "/elTiempo/",
   "id": "/",
   "icons": [
