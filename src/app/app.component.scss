@@ -11,3 +11,27 @@ nav.nav {
     font-size: 1.50rem;
   }
 }
+.card {
+  background-color: $primario;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-radius: $border-radius-size;
+  box-shadow: -0.063rem 1rem 1.875rem -1rem $black;
+  hr {
+    border: 1px solid $white;
+    opacity: 1;
+  }
+  .card__error {
+    padding: 0 1rem;
+    color: $secundario;
+    font-weight: 600;
+    button{
+      color: $primario;
+      background-color: $favorite;
+      border-radius: $border-radius-size;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
+

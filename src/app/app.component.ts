@@ -20,6 +20,7 @@ export class AppComponent implements OnInit{
   public weatherData!: WeatherData;
   public city = new FormControl('Madrid');
   public isConnected = true;
+  public errorText = 'No se ha encontrado ningún resultado con esta búsqueda.';
 
   constructor(readonly weatherSvc: WeatherService,
               readonly geoLocationSvc: GeoLocationService,
@@ -39,6 +40,9 @@ export class AppComponent implements OnInit{
     if (navigator.geolocation) {
       this.getLocation();
     }
+  }
+  public recargar(): void {
+    window.location.reload();
   }
   public onSearch(city: string): void {
     if(this.isConnected){
@@ -63,7 +67,8 @@ export class AppComponent implements OnInit{
         this.weather$ = this.weatherSvc.getForecastByCoords(coords);
       }
     } catch (error: any) {
-      throw new Error(error.message);
+      this.errorText = error.message;
+      // throw new Error(error.message);
     }
   }
 
