@@ -14,7 +14,8 @@
           "/*.js"
         ],
         "urls": [
-            "https://api.weatherapi.com/**"
+            "https://api.weatherapi.com/**",
+            "https://cdn.weatherapi.com/**"
         ]
       }
     },
@@ -34,7 +35,8 @@
     {
       "name": "api",
       "urls": [
-          "https://api.weatherapi.com/**"
+          "https://api.weatherapi.com/**",
+          "https://cdn.weatherapi.com/**"
       ],
       "cacheConfig": {
           "strategy": "freshness",

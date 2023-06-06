@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card__main">
-    <img src="{{weather.current.condition.icon}}" width="96" height="96" [alt]="weather.current.condition.text">
+    <img src="{{'https:'+weather.current.condition.icon}}" width="96" height="96" [alt]="weather.current.condition.text">
   </div>
   <div class="card__temp col-9"> {{weather.current.temp_c | number:'1.0-0'}}&#8451;</div>
   <div class="card__city mx-4">

@@ -7,7 +7,7 @@
   "display": "fullscreen",
   "orientation": "any",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "/elTiempo/",
   "id": "/",
   "icons": [
       {

@@ -46,12 +46,14 @@ export class AppComponent implements OnInit{
     window.location.reload();
   }
   public onSearch(city: string): void {
+    this.loaded = false;
     if(this.isConnected){
       this.weather$.pipe(take(1)).subscribe((valorActual: any) => {
         if(city.length < 3){
           this.navLocation();
         }else if(city !== this.weather.weather.location.name){
           this.weather$ = this.weatherSvc.getForecastByName(city);
+          this.loaded = true;
         }
         this.city.setValue(valorActual.location.name);
       });
@@ -89,5 +91,6 @@ export class AppComponent implements OnInit{
         this.weather$ = of(weatherForecast[0]);
       }
     }
+    this.loaded = true;
   }
 }
