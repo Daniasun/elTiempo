@@ -20,6 +20,7 @@ export class AppComponent implements OnInit{
   public weatherData!: WeatherData;
   public city = new FormControl('Madrid');
   public isConnected = true;
+  public loaded = false;
   public errorText = 'No se ha encontrado ningún resultado con esta búsqueda.';
 
   constructor(readonly weatherSvc: WeatherService,
@@ -68,8 +69,8 @@ export class AppComponent implements OnInit{
       }
     } catch (error: any) {
       this.errorText = error.message;
-      // throw new Error(error.message);
     }
+    this.loaded = true;
   }
 
   public getCachedForecast(city?:string):void {

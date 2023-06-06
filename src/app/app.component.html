@@ -5,7 +5,7 @@
   <app-search (submitted)="onSearch($event)"></app-search>
   <app-weather (cambio)="onSearch($event)" *ngIf="weather$ | async as weather; else errorBusqueda" [weather]="weather" [city]="city"></app-weather>
   <ng-template #errorBusqueda>
-    <div class="card">
+    <div *ngIf="loaded" class="card">
       <hr class="mx-2">
       <div class="card__error d-flex flex-column align-items-center">
         <div class="d-flex flex-wrap">
